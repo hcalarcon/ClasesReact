@@ -1,6 +1,7 @@
 //nuestro primer componente
 //los componente pueden recibir propiedades que denomimaos props
 function Saludo({ name }) {
+  console.log("componente");
   //devuelve una vistar
   return <p>Hola, {name}</p>;
 }
