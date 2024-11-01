@@ -4,6 +4,7 @@
 import style from "../styles/Boton.module.css";
 
 function Boton() {
+  console.log("render del boton");
   return (
     <button className={style.boton}>
       Soy <span className={style.span}>un</span> boton
